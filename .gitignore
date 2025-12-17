@@ -1,0 +1,14 @@
+# Ignore all .env files in any folder
+.env
+.env.local
+.env.*.local
+
+# Ignore Python virtual environments and cache
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+venv
+# Ignore Node modules and builds
+frontend_edited/node_modules/
+frontend_edited/.next/
