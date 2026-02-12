@@ -7,7 +7,7 @@ annotated-types==0.7.0
 anyio==4.9.0
 async-timeout==4.0.3
 attrs==25.3.0
-av==14.4.0
+av==10.0.0
 backoff==2.2.1
 bcrypt==4.3.0
 beautifulsoup4==4.13.4
@@ -206,4 +206,5 @@ yarl==1.20.1
 yt-dlp==2025.8.27
 zipp==3.23.0
 zstandard==0.23.0
+
 
