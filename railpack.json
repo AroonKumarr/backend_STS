@@ -1,3 +1,16 @@
 {
   "python_version": "3.11"
 }
+"apt_packages": [
+    "ffmpeg",
+    "libavformat-dev",
+    "libavcodec-dev",
+    "libavdevice-dev",
+    "libavutil-dev",
+    "libavfilter-dev",
+    "libswscale-dev",
+    "libswresample-dev",
+    "pkg-config",
+    "cython3",
+    "build-essential"
+]
