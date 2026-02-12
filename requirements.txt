@@ -206,3 +206,4 @@ yarl==1.20.1
 yt-dlp==2025.8.27
 zipp==3.23.0
 zstandard==0.23.0
+fastapi==0.128.8
