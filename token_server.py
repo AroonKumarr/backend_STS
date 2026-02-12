@@ -15,6 +15,7 @@ app.add_middleware(
 
 LIVEKIT_API_KEY = os.getenv("LIVEKIT_API_KEY")
 LIVEKIT_API_SECRET = os.getenv("LIVEKIT_API_SECRET")
+LIVEKIT_URL = os.getenv("LIVEKIT_URL")   # ⭐ missing before
 
 @app.get("/")
 def root():
@@ -32,4 +33,7 @@ def get_token(room: str = "voice-room", username: str = "web-user"):
         )
     )
 
-    return {"token": token.to_jwt()}
+    return {
+        "token": token.to_jwt(),
+        "url": LIVEKIT_URL   # ⭐ REQUIRED
+    }
