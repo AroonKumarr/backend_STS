@@ -30,4 +30,36 @@ backend_STS/
 
 ---
 
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/AroonKumarr/backend_STS.git
+cd backend_STS
+
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+pip install -r requirements.txt
+▶️ Run Token Server
+uvicorn token_server:app --reload --port 8000
+Test:
+
+http://localhost:8000/getToken
+▶️ Run Voice Agent
+python agent.py
+🧠 Technologies Used
+Python
+
+FastAPI
+
+LiveKit Agents
+
+OpenAI Realtime API
+
+👤 Author
+Aroon Kumar
+GitHub: https://github.com/AroonKumarr
+
 
